@@ -1,0 +1,20 @@
+{
+  "name": "kakao-clone-handson",
+  "version": "1.0.0",
+  "description": "Nomad Academy Kakao clone course version 2.0",
+  "homepage": "https://kneeprayer.github.io/kakao-clone-handson",
+  "repository": "https://github.com/kneeprayer/kakao-clone-handson.git",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base src/ --open-page index.html",
+    "deploy": "gh-pages -d src"
+  },
+  "author": "kneeprayer <kneeprayer@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
